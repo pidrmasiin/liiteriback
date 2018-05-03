@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+  "phone" : "0252345423",
+  "email" : "joku.jokunen@joku.fi"
+}
