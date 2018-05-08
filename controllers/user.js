@@ -6,6 +6,7 @@ userRouter.get('/', async (request, response) => {
   response.json(users.map(User.format))
 })
 
+
 userRouter.post('/', async (request, response) => {
   try {
     const body = request.body
