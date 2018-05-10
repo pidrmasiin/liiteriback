@@ -1,11 +1,19 @@
 {
-  "main.css": "static/css/main.63b8f860.css",
-  "main.css.map": "static/css/main.63b8f860.css.map",
-  "main.js": "static/js/main.f3e86151.js",
-  "main.js.map": "static/js/main.f3e86151.js.map",
+  "main.css": "static/css/main.4b852af7.css",
+  "main.css.map": "static/css/main.4b852af7.css.map",
+  "main.js": "static/js/main.f7fe452e.js",
+  "main.js.map": "static/js/main.f7fe452e.js.map",
+  "static/media/applaud.mp3": "static/media/applaud.8c9bd99b.mp3",
   "static/media/apploud.png": "static/media/apploud.9c54e04b.png",
+  "static/media/bell.mp3": "static/media/bell.f3e1419d.mp3",
   "static/media/bigboom.png": "static/media/bigboom.27507bf4.png",
+  "static/media/birds.mp3": "static/media/birds.d216301e.mp3",
+  "static/media/bom.mp3": "static/media/bom.7f73c755.mp3",
+  "static/media/cheering.mp3": "static/media/cheering.c597f127.mp3",
   "static/media/fall.png": "static/media/fall.f9e9f798.png",
   "static/media/girl.png": "static/media/girl.405ef5e8.png",
-  "static/media/maja.png": "static/media/maja.0106e5f1.png"
+  "static/media/hello.mp3": "static/media/hello.39026f97.mp3",
+  "static/media/maja.png": "static/media/maja.0106e5f1.png",
+  "static/media/please.mp3": "static/media/please.06c3fc28.mp3",
+  "static/media/sad.mp3": "static/media/sad.3ba7f132.mp3"
 }

@@ -1,4 +1,5 @@
 const express = require('express')
+const path = require('path')
 const app = express()
 const bodyParser = require('body-parser')
 const cors = require('cors')
@@ -23,6 +24,14 @@ app.use(cors())
 
 app.use(express.static('build'))
 app.use('/api/users', userRouter)
+
+app.get('/*', function(req, res) {
+  res.sendFile(path.join(__dirname, 'build/index.html'), function(err) {
+    if (err) {
+      res.status(500).send(err)
+    }
+  })
+})
 
 const PORT = process.env.PORT || 3001
 app.listen(PORT, () => {
